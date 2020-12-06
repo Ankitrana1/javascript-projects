@@ -1,0 +1,24 @@
+body {
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 14px;
+    line-height: 1.43;
+    color: #484848;
+    background-color: #fff;
+    margin: 0;
+}
+
+.brand {
+    font-size: 2rem;
+    padding: 10px;
+    margin: 2px;
+}
+
+a {
+    font-size: 1.5rem;
+}
+
+.main {
+    background-color: white;
+    border: 2px solid green;
+    height: 550px;
+  }
