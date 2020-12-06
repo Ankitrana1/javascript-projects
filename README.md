@@ -1,1 +1,1 @@
-# javascript-projects
+# Collection of Javascript Projects
