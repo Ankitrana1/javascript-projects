@@ -7,6 +7,11 @@ body {
     margin: 0;
 }
 
+img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
 .brand {
     font-size: 2rem;
     padding: 10px;
