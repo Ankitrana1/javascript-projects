@@ -15,36 +15,37 @@
                 <h2>Calculator</h2s>
             </div>
             <div class="display">
-                <div class="upper"></div>
-                <div class="lower"></div>
+                <p class="upper-text" style="font-size: 35px; font-weight: bold; color:greenyellow">0</p>
+                <p class="lower-text" style="font-size: 35px; font-weight: bold; color:greenyellow">0</p>
             </div>
             <div class="num-pad">
-                <button class="item">%</button>
-                <button class="item">CE</button>
-                <button class="item">C</button>
-                <button class="item">DEL</button>
-                <button class="item">1/X</button>
-                <button class="item">X<sup>2</sup></button>
-                <button class="item">√X</button>
-                <button class="item">÷</button>
-                <button class="item">1</button>
-                <button class="item">2</button>
-                <button class="item">3</button>
-                <button class="item">×</button>
-                <button class="item">4</button>
-                <button class="item">5</button>
-                <button class="item">6</button>
-                <button class="item">-</button>
-                <button class="item">7</button>
-                <button class="item">8</button>
-                <button class="item">9</button>
-                <button class="item">+</button>
-                <button class="item">00</button>
-                <button class="item">0</button>
-                <button class="item">.</button>
-                <button class="item">=</button>
+                <button class="item" onclick="percent()">%</button>
+                <button class="item" onclick="ce()">CE</button>
+                <button class="item"  onclick="c()">C</button>
+                <button class="item" onclick="del()">DEL</button>
+                <button class="item" onclick="xPart()">1/X</button>
+                <button class="item" onclick="squae()">X<sup>2</sup></button>
+                <button class="item" onclick="sqrt()">√X</button>
+                <button class="operator">÷</button>
+                <button class="num">1</button>
+                <button class="num">2</button>
+                <button class="num">3</button>
+                <button class="operator">×</button>
+                <button class="num">4</button>
+                <button class="num">5</button>
+                <button class="num">6</button>
+                <button class="operator">-</button>
+                <button class="num">7</button>
+                <button class="num">8</button>
+                <button class="num">9</button>
+                <button class="operator">+</button>
+                <button class="num">00</button>
+                <button class="num">0</button>
+                <button class="num">.</button>
+                <button class="operator" onclick="calculate()">=</button>
             </div>
         </div>
     </div>
+    <script src="./app.js"></script>
 </body>
 </html>
